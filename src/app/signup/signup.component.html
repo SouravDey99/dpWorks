@@ -1,0 +1,19 @@
+<div class="overlay">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>Reset Password</h2>
+      <button class="close-btn" (click)="closeModal()">&times;</button>
+    </div>
+    
+    <p class="email-address">Registered email address*</p>
+    <input
+      type="email"
+      placeholder="Enter your email address"
+      class="input-field"
+    />
+    <button (click)="resetPassword()" class="reset-btn">Reset password</button>
+    <div class="back-to-login">
+      <a href="/login">Back to Login</a>
+    </div>
+  </div>
+</div>

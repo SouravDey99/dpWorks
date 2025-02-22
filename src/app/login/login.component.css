@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login-box {
+    background-color: #060606;
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6e6e6e;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #EDC99E;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #EDC99E;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #EDC99E;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #EDC99E;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.Register-section {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.Register-link {
+    color: #EDC99E;
+    text-decoration: none;
+}
+
+.Register-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        padding: 20px;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    background-color: #060606;
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6e6e6e;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-group {
+    width: 100%;
+}
